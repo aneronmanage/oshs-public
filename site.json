@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "publishedAt": null,
+  "archive": {
+    "items": [],
+    "error": "Дані ще не опубліковано"
+  },
+  "journal": {
+    "error": "Дані ще не опубліковано",
+    "phase": "PREPARATION",
+    "timezone": "Europe/Warsaw",
+    "subjects": [],
+    "lessons": [],
+    "homework": [],
+    "announcements": [],
+    "archive": [],
+    "curators": []
+  },
+  "guests": {
+    "items": [],
+    "error": "Дані ще не опубліковано"
+  },
+  "featuredGuests": []
+}
