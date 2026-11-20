@@ -467,7 +467,7 @@ guestList.forEach((g,i)=>{
  const fallback=el('span','guest-photo-placeholder','ОШС.');portrait.append(fallback);
  const photoUrl=safeUrl(g.photo_url);if(photoUrl){const img=el('img');img.alt='Фото гостя '+(g.nickname||g.name);img.loading='lazy';img.decoding='async';img.onload=()=>fallback.hidden=true;img.onerror=()=>img.remove();img.src=photoUrl;portrait.append(img)}
  portrait.append(el('span','guest-stamp','ЗАПРОШЕНИЙ ВИКЛАДАЧ'));
- const details=el('div','guest-details');details.append(el('span','mono over','СПЕЦІАЛЬНИЙ ГОСТЬ / СПРАВА №'+String(i+1).padStart(3,'0')));
+ const details=el('div','guest-details');details.append(el('span','mono over','СПЕЦІАЛЬНИЙ ГІСТЬ / СПРАВА №'+String(i+1).padStart(3,'0')));
  details.append(el('h3','',g.nickname||g.name));if(g.name&&g.name!==g.nickname)details.append(el('span','guest-name',g.name));
  if(g.specialization||g.description)details.append(el('p','guest-desc',g.specialization||g.description));
  const meta=el('div','guest-meta');meta.append(el('span','mono','ПРЕДМЕТ'),el('strong','guest-subject',g.subject||'Буде оголошено'),el('span','mono guest-duration','90 ХВИЛИН'));details.append(meta);
